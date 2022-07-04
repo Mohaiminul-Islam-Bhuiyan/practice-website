@@ -1,6 +1,58 @@
-.top-part{
+body{
     font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
 }
+h2{
+    font-size: 40px;
+}
+
+.flexible{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 100%;
+}
+.heading{
+    margin-top: 80px;
+    
+}
+
 #orange{
     color: orangered;
+    font-size: 60px;
+}
+
+.link-button{
+    text-decoration: wavy;
+    background-image: linear-gradient(blue,indigo);
+    padding: 7px 10px;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 90px;
+}
+
+#div-middle{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+.about-me{
+    background-image: url(/eat-healthy/images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.my-recipies{
+    text-align: center;
+}
+#recipies{
+    margin-left: 200px;
+    margin-right: 200px;
 }
