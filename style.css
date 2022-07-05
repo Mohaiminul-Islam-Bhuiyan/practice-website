@@ -1,7 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 000px;
+    margin-right: 000px;
 }
 h2{
     font-size: 40px;
@@ -15,6 +15,7 @@ h2{
 
 .half-width{
     width: 50%;
+    padding-left: 2%;
 }
 
 .half-width img{
@@ -25,7 +26,7 @@ h2{
     
 }
 
-#orange{
+.orange{
     color: orangered;
     font-size: 60px;
 }
@@ -35,8 +36,8 @@ h2{
     background-image: linear-gradient(blue,indigo);
     padding: 7px 10px;
     color: whitesmoke;
-    font-weight: 500;
-    border-radius: 90px;
+    font-weight: 1000;
+    border-radius: 100px;
 }
 
 #div-middle{
@@ -45,9 +46,9 @@ h2{
 }
 
 .about-me{
-    background-image: url(/eat-healthy/images/shapes/Frame\ 59.jpg);
+    background-image: url(/eat-healthy/images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
 }
 .my-recipies{
     text-align: center;
@@ -55,4 +56,42 @@ h2{
 #recipies{
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.recepie-title{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+}
+.recepie-titlediv{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+#rdiv1{
+    margin-right: 40px;
+}
+.smedia{
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+.smedia-margin{
+    margin-right: 80px;
+}
+.smedia h4{
+    font-weight: 1000;
+}
+#eat{
+    background-color: black;
+    color: white;
 }
